@@ -29,16 +29,19 @@ The goal is to make the system structure explicit and easier to navigate.
 | Repo | Description |
 |------|------------|
 | [liquidator-v2](https://github.com/Gearbox-protocol/liquidator-v2) | Open-source liquidation bot for Gearbox Protocol — anyone can run it to perform liquidations |
-| [safe-watcher](https://github.com/Gearbox-protocol/safe-watcher) | Open-source utility for monitoring Safe transactions and detecting suspicious activity |
-| [apy-server](https://github.com/Gearbox-protocol/apy-server) | Production service for calculating APY, including rewards and incentive programs |
-| [charts_server](https://github.com/Gearbox-protocol/charts_server) | Legacy charts backend supporting historical data visualization |
 | [gearbox-backend](https://github.com/Gearbox-protocol/gearbox-backend) | Core backend service indexing protocol state and historical data for APIs and analytics |
 | [strategies-apy-lambda](https://github.com/Gearbox-protocol/strategies-apy-lambda) | Serverless component for computing strategy-level APY and performance metrics |
+| [anvil-manager](https://github.com/Gearbox-protocol/anvil-manager) | Tooling for managing local test environments and pre-deployment testing workflows |
+---
+
+## Monitoring Services
+
+| Repo | Description |
+|------|------------|
+| [safe-watcher](https://github.com/Gearbox-protocol/safe-watcher) | Open-source utility for monitoring Safe transactions and detecting suspicious activity |
 | [dns-checker](https://github.com/Gearbox-protocol/dns-checker) | Monitoring bot that tracks DNS changes and triggers alerts on unexpected updates |
 | [microservices](https://github.com/Gearbox-protocol/microservices) | Internal services for monitoring accounts, protocol state, and security-related events |
 | [optimist](https://github.com/Gearbox-protocol/optimist) | Service for optimistic liquidation checks, detecting accounts that may become liquidatable |
-| [anvil-manager](https://github.com/Gearbox-protocol/anvil-manager) | Tooling for managing local test environments and pre-deployment testing workflows |
----
 
 ## Frontend
 
@@ -101,4 +104,12 @@ Libraries provide shared components, SDKs, and assets used across the Gearbox ec
 | Repo | Description |
 |------|------------|
 | [brand-assets](https://github.com/Gearbox-protocol/brand-assets) | Logos and assets |
+
+## Legacy
+
+| Repo | Description |
+|------|------------|
+| [charts_server](https://github.com/Gearbox-protocol/charts_server) | Legacy charts backend supporting historical data visualization |
+| [apy-server](https://github.com/Gearbox-protocol/apy-server) | Production service for calculating APY, including rewards and incentive programs |
+
 
