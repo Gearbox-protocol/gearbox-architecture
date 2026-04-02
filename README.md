@@ -1,15 +1,14 @@
 # Gearbox Architecture
 
-This repository documents the system architecture of Gearbox Protocol.
+This repository provides an overview of the Gearbox Protocol codebase.
 
-It provides a structured overview of:
+It maps repositories to their role in the system:
 - smart contracts
-- services
-- interfaces
-- frontend
-- data systems
+- backend services
+- frontend interfaces
+- shared libraries
 
-The goal is to maintain a clear, evolving map of the system.
+The goal is to make the system structure explicit and easier to navigate.
 
 ---
 
