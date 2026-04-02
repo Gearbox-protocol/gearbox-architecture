@@ -43,17 +43,18 @@ The goal is to maintain a clear, evolving map of the system.
 
 ## Frontend
 
-| Domain | Service | Repo | Description |
-|--------|--------|------|------------|
-| https://gearbox.finance | Landing | [landing-v3](https://github.com/Gearbox-protocol/landing-v3) | Marketing website and primary entry point |
-| https://app.gearbox.finance | Main App | [client-v3](https://github.com/Gearbox-protocol/client-v3) | Main user interface for interacting with the protocol |
-| https://x.gearbox.finance | Intent-based Lending Interface | [gearbox-x-interface](https://github.com/Gearbox-protocol/gearbox-x-interface) | Frontend prototype for intent-based lending |
-| https://safe.gearbox.finance | Safe Interface | [permissionless-safe](https://github.com/Gearbox-protocol/permissionless-safe) | Safe integration for governance and operations |
-| https://permissionless.gearbox.finance | Interface Layer | [permissionless-interface](https://github.com/Gearbox-protocol/permissionless-interface) | Interface layer connecting UI with backend services |
-| https://bcr.gearbox.finance | Verification Interface | [bcr-interface](https://github.com/Gearbox-protocol/bcr-interface) | Bytecode verification (BCR) interface |
-| https://data.gearbox.finance | Analytics | [analytics](https://github.com/Gearbox-protocol/analytics) | Data processing and insights |
-| https://gov.gearbox.finance | Governance | [gov](https://github.com/Gearbox-protocol/gov) | Governance interface and proposal system |
----
+| Site | Repo | Description |
+|------|------|------------|
+| [gearbox.finance](https://gearbox.finance) | [landing-v3](https://github.com/Gearbox-protocol/landing-v3) | Landing page |
+| [app.gearbox.finance](https://app.gearbox.finance) | [client-v3](https://github.com/Gearbox-protocol/client-v3) | Core app for users |
+| [x.gearbox.finance](https://x.gearbox.finance) | [gearbox-x-interface](https://github.com/Gearbox-protocol/gearbox-x-interface) | Frontend prototype for intent-based lending |
+| [safe.gearbox.finance](https://safe.gearbox.finance) | [permissionless-safe](https://github.com/Gearbox-protocol/permissionless-safe) | Safe interface for market curators operations |
+| [permissionless.gearbox.finance](https://permissionless.gearbox.finance) | [permissionless-interface](https://github.com/Gearbox-protocol/permissionless-interface) | Interface for market curators |
+| [bcr.gearbox.finance](https://bcr.gearbox.finance) | [bcr-interface](https://github.com/Gearbox-protocol/bcr-interface) | Bytecode verification (BCR) interface |
+| [data.gearbox.finance](https://data.gearbox.finance) | [analytics](https://github.com/Gearbox-protocol/analytics) | Analytics platform (credit accounts, positions, protocol data) |
+| [gov.gearbox.finance](https://gov.gearbox.finance) | [gov](https://github.com/Gearbox-protocol/gov) | Governance portal (proposals, voting, on-chain decisions) |
+
+--
 
 ## Data
 
